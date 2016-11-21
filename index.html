@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Weather PWA</title>
+	<link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+	<header class="main-header">
+    <h1 class="header__title">Weather PWA</h1>
+    <a class="header__button refresh"></a>
+    <a class="header__button add"></a>
+  </header>
+  <main class="main">
+    <div class="js-weather-container"></div>
+    <div class="card">
+    	<div class="push--bottom">
+    		Choose the days you want to see:
+    	</div>
+    	<div class="push-half--bottom">
+	    	<input type="checkbox" value="sun" id="sunday" checked>
+	    	<label for="sunday">Sunday</label>
+	    </div>
+			<div class="push-half--bottom">
+	    	<input type="checkbox" value="mon" id="monday" checked>
+	    	<label for="monday">Monday</label>
+	    </div>
+			<div class="push-half--bottom">
+	    	<input type="checkbox" value="tue" id="tuesday" checked>
+	    	<label for="tuesday">Tuesday</label>
+	    </div>
+			<div class="push-half--bottom">
+	    	<input type="checkbox" value="wed" id="wednesday" checked>
+	    	<label for="wednesday">Wednesday</label>
+	    </div>
+			<div class="push-half--bottom">
+	    	<input type="checkbox" value="thu" id="thursday" checked>
+	    	<label for="thursday">Thursday</label>
+	    </div>
+			<div class="push-half--bottom">
+	    	<input type="checkbox" value="fri" id="friday" checked>
+	    	<label for="friday">Friday</label>
+	    </div>
+			<div class="push-half--bottom">
+	    	<input type="checkbox" value="sat" id="saturday" checked>
+	    	<label for="saturday">Saturday</label>
+	    </div>
+			
+    </div>
+  </main>
+  <div class="card card-template js-card-template">
+    <div class="card__label js-card-label"></div>
+    <div class="forecast">
+      <div class="forecast__item js-forecast-day">
+        <div class="forecast__date js-forecast-date"></div>
+        <div class="forecast__icon js-forecast-icon"></div>
+        <div class="forecast__temp--high js-forecast-temp-high"></div>
+        <div class="forecast__temp--low js-forecast-temp-low"></div>
+      </div>
+      <div class="forecast__item js-forecast-day">
+        <div class="forecast__date js-forecast-date"></div>
+        <div class="forecast__icon js-forecast-icon"></div>
+        <div class="forecast__temp--high js-forecast-temp-high"></div>
+        <div class="forecast__temp--low js-forecast-temp-low"></div>
+      </div>
+      <div class="forecast__item js-forecast-day">
+        <div class="forecast__date js-forecast-date"></div>
+        <div class="forecast__icon js-forecast-icon"></div>
+        <div class="forecast__temp--high js-forecast-temp-high"></div>
+        <div class="forecast__temp--low js-forecast-temp-low"></div>
+      </div>
+      <div class="forecast__item js-forecast-day">
+        <div class="forecast__date js-forecast-date"></div>
+        <div class="forecast__icon js-forecast-icon"></div>
+        <div class="forecast__temp--high js-forecast-temp-high"></div>
+        <div class="forecast__temp--low js-forecast-temp-low"></div>
+      </div>
+      <div class="forecast__item js-forecast-day">
+        <div class="forecast__date js-forecast-date"></div>
+        <div class="forecast__icon js-forecast-icon"></div>
+        <div class="forecast__temp--high js-forecast-temp-high"></div>
+        <div class="forecast__temp--low js-forecast-temp-low"></div>
+      </div>
+      <div class="forecast__item js-forecast-day">
+        <div class="forecast__date js-forecast-date"></div>
+        <div class="forecast__icon js-forecast-icon"></div>
+        <div class="forecast__temp--high js-forecast-temp-high"></div>
+        <div class="forecast__temp--low js-forecast-temp-low"></div>
+      </div>
+      <div class="forecast__item js-forecast-day">
+        <div class="forecast__date js-forecast-date"></div>
+        <div class="forecast__icon js-forecast-icon"></div>
+        <div class="forecast__temp--high js-forecast-temp-high"></div>
+        <div class="forecast__temp--low js-forecast-temp-low"></div>
+      </div>
+    </div>
+  </div>
+	<script src="./assets/javascript/main.js"></script>
+</body>
+</html>
